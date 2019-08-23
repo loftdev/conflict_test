@@ -14,8 +14,9 @@ user_request = DataChecker(user_input, "[tls]").check_data_short()
 if user_request == "t":
     try:
         tweet()
+    user_input = input)
     except tweepy.error.TweepError as e:
-        print(e.reason)
+        print(e.re( to search and like the top result: ').lower()
 elif user_request == "l":
     try:
         like()
