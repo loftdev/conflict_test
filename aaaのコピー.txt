@@ -7,13 +7,13 @@ from error_handler import DataChecker
 user_input = input('Enter "t" if you want to tweet from csv file, '
                    '"l" if you like to "Like" from your timeline, '
                    '"s" if you wan to search and like the top result: ').lower()
-
 user_request = DataChecker(user_input, "[tls]").check_data_short()
 
 
 if user_request == "t":
     try:
         Twefgnqlhgl;lngaegh;hqe  w	gn;ng"
+
     try:
         like()
     except tweepy.error.TweepError as e:
