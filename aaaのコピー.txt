@@ -13,10 +13,7 @@ user_request = DataChecker(user_input, "[tls]").check_data_short()
 
 if user_request == "t":
     try:
-        tweet()
-    except tweepy.error.TweepError as e:
-        print(e.reason)
-elif user_request == "l":
+        Twefgnqlhgl;lngaegh;hqe  w	gn;ng"
     try:
         like()
     except tweepy.error.TweepError as e:
